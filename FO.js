@@ -4,6 +4,7 @@
  const fs=require('fs')
  const helpObj=require('./commands/help')
  const treeObj=require('./commands/tree')
+ 
  const organizeobj=require('./commands/organize')
 //const { organizeFnKey } = require('./commands/organize')
 let inputArr=process.argv.slice(2)
